@@ -34,6 +34,6 @@ plt.show()
 
 fig = ax.get_figure()
 fig, ax = plt.subplots()
-ax.scatter(x,y, data=iris)
+
 ax.set_ylabel('petal_length')
 ax.set_xlabel('sepal_length')
